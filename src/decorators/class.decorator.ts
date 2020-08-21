@@ -1,6 +1,6 @@
 export function classLog() {
     return function(constructor: Function) {
-        console.log('log(): called');
+        console.log('classLog(): called');
     }
 }
 
